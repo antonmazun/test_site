@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+    <h1>all_test_new !</h1>
+    {% for elem in all_test_new %}
+        <p>{{elem.name}}</p>
+        <p>{{elem.surname}}</p>
+        <p>{{elem.age}}</p>
+        <hr>
+    {% endfor %}
+{% endblock %}
